@@ -1,0 +1,72 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fixed.css' %}">
+    <title>FRACTURE AIDS </title>
+  </head>
+  <body data-spy="scroll" data-target="#navebarResponsive">
+      <!-- home section start -->
+    <div id="home">
+        <nav class="navbar navbar-expand md navbar-dark bg-dark fixed-top" >
+            <a class="navbar-brand" href="#"><img src="{% static 'img/RIZO-CHEM.png' %}"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navebarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navebarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                       
+                            <li class="nav-item">
+                              <div class="dropdown">
+                                <a class="nav-link" href="#products">Products</a>
+                                <div class="dropdown-content">
+                                  <a href="allopathic">Allopathic Medicines</a>
+                                  <a href="ayurvedic">Ayurvedic Medicines</a>
+                                  <a href="pharmacy">Pharmacy</a>
+                                  <a href="disposals">Disposals</a>
+                                  <a href="surgicals">Surgicals</a>
+                                  <a href="neu">NUTRACEUTICALS</a>
+                                  <a href="resp">Respiratory Solutions</a>
+                                  <a href="orth">ORTHOPAEDIC SOFT GOODS & REHABILITATION AIDS</a>
+                                </div>
+                              </div>
+                              
+                              </li>
+                            
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="rizochem/index">Contact Us</a>
+                                    </li>
+                                    </ul>
+                                    </div>
+                                  </nav>
+
+                                  <!-- main content start -->
+
+                                      <h1 class="nexthead">FRACTURE AIDS </h1>
+                                      {% for al in allo %}
+                                            <div class="row">
+                                                <div class="col-lg">
+                                                    <p class="inside1">{{al.item1}}</p>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <p class="inside2">{{al.item2}}</p>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <p class="inside3">{{al.item3}}</p>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <p class="inside4">{{al.item4}}</p>
+                                                </div>
+                                              </div>
+                                      {% endfor %} 
