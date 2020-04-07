@@ -9,4 +9,16 @@ urlpatterns = [
     path('pharmacy',views.pharmacy, name='pharmacy'),
     path('resp',views.resp, name='resp'),
     path('surgicals',views.surgicals, name='surgicals'),
+    path('orth',views.orth, name='orth'),
+    path('app',views.app, name='app'),
+    path('belt',views.belt, name='belt'),
+    path('cerv',views.cerv, name='cerv'),
+    path('fing',views.fing, name='fing'),
+    path('frac',views.frac, name='frac'),
+    path('gel',views.gel, name='gel'),
+    path('knee',views.knee, name='knee'),
+    path('neo',views.neo, name='neo'),
+    path('trac',views.trac, name='trac'),
+    path('wri',views.wri, name='wri'),
+    
 ]
