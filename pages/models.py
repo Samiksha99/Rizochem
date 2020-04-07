@@ -41,6 +41,67 @@ class surgis(models.Model):
     item1 = models.CharField(max_length=100,null=True)
     item2 = models.CharField(max_length=100,null=True,blank=True)
     item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)    
+
+class applys(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
     item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class bels(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class cervis(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class fingers(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class fracts(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class gells(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class kneees(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class neops(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class tracts(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class wrists(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
 
     

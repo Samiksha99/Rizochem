@@ -18,7 +18,8 @@ from . models import tracts
 from . models import wrists
 # Create your views here.
 
-
+def orth(request):
+    return render(request, "orth.html")
 def allopathic(request):
     allo = allos.objects.all()
 
