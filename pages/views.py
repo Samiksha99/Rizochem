@@ -20,6 +20,7 @@ from . models import wrists
 
 def orth(request):
     return render(request, "orth.html")
+    
 def allopathic(request):
     allo = allos.objects.all()
 
@@ -93,7 +94,7 @@ def knee(request):
 def neo(request):
     neop = neops.objects.all()
 
-    return render(request, "neo.html", {'neops': neops})
+    return render(request, "neo.html", {'neop': neop})
 
 def trac(request):
     tract = tracts.objects.all()
@@ -103,6 +104,6 @@ def trac(request):
 def wri(request):
     wrist = wrists.objects.all()
 
-    return render(request, "wrists.html", {'wrist': wrist})
+    return render(request, "wri.html", {'wrist': wrist})
 
 
