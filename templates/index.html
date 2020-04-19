@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <link rel="stylesheet" href="{% static 'css/fixed.css' %}">
     <title>RizoChemInternational</title>
@@ -18,6 +18,12 @@
     <div id="home">
         <nav class="navbar navbar-expand md navbar-dark bg-dark fixed-top" >
             <a class="navbar-brand" href="#"><img src="{% static 'img/RIZO-CHEM.png' %}"></a>
+            <i class="fa fa-facebook-official" style="font-size:36px;color:white"></i>
+            <i class="fa fa-github-square" style="font-size:36px;color:white"></i>
+            <i class="fa fa-instagram" style="font-size:36px;color:white"></i>
+            <i class="fa fa-linkedin-square" style="font-size:36px;color:white"></i>
+            <i class="fa fa-google" style="font-size:36px;color:white"></i>
+            <i class="fa fa-twitter" style="font-size:36px;color:white"></i>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navebarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -206,7 +212,8 @@
            
             <div class="col-md-6">
               <div class="query">
-                <form action="#">
+                <form action="contactus" method="post">
+                  {% csrf_token %}
                   <div>
                   <label for="name">Name</label>
                 </div>
@@ -223,7 +230,7 @@
                 <label for="query">Query</label>
               </div>
               <div>
-                <textarea name="message" rows="10" cols="30"></textarea>
+                <textarea id="query" rows="10" cols="30"></textarea>
                 
               </div>
               <div>
