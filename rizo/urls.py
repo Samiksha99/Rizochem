@@ -22,4 +22,5 @@ urlpatterns = [
     path('',include('rizochem.urls')),
     path('admin/', admin.site.urls),
     path('pages/',include('pages.urls')),
+    path('query/',include('query.urls')),
 ]
