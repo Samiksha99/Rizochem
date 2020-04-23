@@ -20,5 +20,9 @@ urlpatterns = [
     path('neo',views.neo, name='neo'),
     path('trac',views.trac, name='trac'),
     path('wri',views.wri, name='wri'),
+    path('diag',views.diag, name='diag'),
+    path('cath',views.cath, name='cath'),
+    path('fluid',views.fluid, name='fluid'),
+    
     
 ]

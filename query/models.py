@@ -7,8 +7,6 @@ class Message(models.Model):
     email = models.EmailField(max_length=100)
     content = models.TextField(max_length=500)
 
-
-
 class Meta:
     db_table=u'Message'
 

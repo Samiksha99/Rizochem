@@ -16,6 +16,9 @@ from . models import kneees
 from . models import neops
 from . models import tracts
 from . models import wrists
+from . models import cathes
+from . models import dias
+from . models import flus
 # Create your views here.
 
 def orth(request):
@@ -105,5 +108,18 @@ def wri(request):
     wrist = wrists.objects.all()
 
     return render(request, "wri.html", {'wrist': wrist})
+
+def cath(request):
+    cathe = cathes.objects.all()
+    return render(request, "cath.html",{'cathe' : cathe})
+
+def diag(request):
+    dia = dias.objects.all()
+    return render(request, "diag.html",{'dia' : dia})
+
+def fluid(request):
+    flu = flus.objects.all()
+    return render(request, "fluid.html",{'flu' : flu})
+
 
 

@@ -16,6 +16,9 @@ from . models import kneees
 from . models import neops
 from . models import tracts
 from . models import wrists
+from . models import dias
+from . models import cathes
+from . models import flus
 # Register your models here.
 
 admin.site.register(allos)
@@ -35,3 +38,6 @@ admin.site.register(kneees)
 admin.site.register(neops)
 admin.site.register(tracts)
 admin.site.register(wrists)
+admin.site.register(cathes)
+admin.site.register(dias)
+admin.site.register(flus)

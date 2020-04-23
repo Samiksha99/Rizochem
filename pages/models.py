@@ -103,5 +103,25 @@ class wrists(models.Model):
     item3 = models.CharField(max_length=100,null=True,blank=True)
     item4 = models.CharField(max_length=100,null=True,blank=True)
 
+class flus(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class dias(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+class cathes(models.Model):
+    item1 = models.CharField(max_length=100,null=True)
+    item2 = models.CharField(max_length=100,null=True,blank=True)
+    item3 = models.CharField(max_length=100,null=True,blank=True)
+    item4 = models.CharField(max_length=100,null=True,blank=True)
+
+
+
 
     
