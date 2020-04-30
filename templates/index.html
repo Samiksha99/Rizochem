@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+  
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <link rel="stylesheet" href="{% static 'css/fixed.css' %}">
     <title>RizoChemInternational</title>
@@ -19,6 +19,7 @@
     <div id="home">
         <nav class="navbar navbar-expand md navbar-dark bg-dark fixed-top" >
             <a class="navbar-brand" href="#"><img src="{% static 'img/RIZO-CHEM.png' %}"></a>
+      
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navebarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -123,6 +124,22 @@
   color: #e60073;
   text-decoration: underline;
 }
+.direct{
+  padding-top: 3%;
+  color:#001a33 ;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+img {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+}
+.desk  {
+  color: #001a33;
+  
+}
+
                                   </style>
                                 <div class="landing">
                                   <div class="home-wrap">
@@ -235,6 +252,23 @@
       <p>Social Responsibility</p>
     </div>
      <!-- about us ends -->
+     <div class="container">
+      <div class="row">
+        <div class="col">
+      <h2 class="direct">Director's Desk</h2>
+      <p class="desk"><em>As an entrepreneur myself <strong> Sunil Agrawal</strong>  having the experience of 28 years in Pharmaceuticals 
+        Industry always believe in quality, only based on genuine  Approvals / certifications / Analysis Test 
+        Reports and other Documentations regarding each and every products in which we deals, for the long lasting
+        business relations with our customers for their satisfaction and developments among their distributers
+        channels, we have the same strategy in our International market as well as in all over Indian domestic
+        market.</em></p>
+      
+        </div>
+        <div class="col">
+          <img src="{% static 'img/WhatsApp Image 2020-04-30 at 8.13.25 PM.jpeg' %}">
+        </div>
+      </div>
+      </div>
      <!-- manufacturing starts -->
      <div id="manufacturing" class="offset">
        <div class="jumbotron">
@@ -277,13 +311,14 @@
                 
              </div>
              
+             
             </div>
              </div>
              </div>
          </div>
      <!-- manufacturing end -->
      
-
+    
     
 
     <!-- Optional JavaScript -->
