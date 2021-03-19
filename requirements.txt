@@ -16,7 +16,7 @@ Django==3.0.4
 django-crispy-forms==1.9.0
 django-heroku==0.3.1
 django-templated-mail==1.1.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-simplejwt==4.4.0
 djoser==2.0.3
 entrypoints==0.3
