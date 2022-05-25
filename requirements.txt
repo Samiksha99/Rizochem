@@ -54,7 +54,7 @@ pyee==7.0.1
 pyfiglet==0.8.post1
 pyflakes==2.1.1
 Pygments==2.6.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyppeteer==0.0.25
 python-dateutil==2.8.1
